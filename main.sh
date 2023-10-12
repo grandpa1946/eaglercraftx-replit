@@ -73,7 +73,7 @@ REMOTEHASH=$(git rev-parse @{u})
 if [ "$LOCALHASH" != "$REMOTEHASH" ] || [ $FORCE1 == "bruh" ]; then
   cd ..
   rm -rf eaglercraftx
-  git clone https://gitlab.com/lax1dude/eaglercraftx-1.8 eaglercraftx --depth 1
+  git clone https://github.com/grandpa1946/reborn eaglercraftx --depth 1
   mkdir eaglercraftx
   cd eaglercraftx
 fi

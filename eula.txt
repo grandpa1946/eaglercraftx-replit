@@ -1,1 +1,1 @@
-eula=ayunami2000/eaglercraftx
+eula=true
